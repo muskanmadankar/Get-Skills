@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #12151c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.contact-info {
+    background: linear-gradient(45deg, #4c4ce3, #db00ff);
+    padding: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.info-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.info-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info-list li span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    gap: 10px;               /* Space between icons */
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;  /* Center icon inside the circle */
+    align-items: center;      /* Vertically center icon */
+    height: 50px;
+    width: 50px;
+    background-color: #ff4b8f;
+    color: white;
+    border-radius: 50%;       /* Make the background a circle */
+    text-decoration: none;
+    font-size: 23px;
+}
+
+
+.contact-form {
+    padding: 40px;
+    width: 60%;
+    background-color: #f1f4f8;
+}
+
+.contact-form h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #12151c;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group input, .form-group textarea {
+    width: 48%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f0f4f8;
+    font-size: 14px;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    background-color: #ff4b8f;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 75, 143, 0.2);
+}
+
+button:hover {
+    background-color: #e13b7c;
+}

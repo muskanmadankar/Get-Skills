@@ -1,0 +1,267 @@
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #d4a373;
+    margin: 0;
+    padding: 20px;
+}
+:root{
+    ----color: #0c0c0c;
+    --text-color: #fff;
+    --main-color: #5555d2;
+    --big-font: 6.6rem;
+    --p-font: 1rem;
+    
+   
+    
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem; /* Adjusted gap for better spacing */
+    margin-top: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #d4a373;
+}
+
+.coffee-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem; /* Adjusted gap for card spacing */
+}
+
+.coffee-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    max-width: 100%; /* Ensure the cards are responsive */
+}
+
+.coffee-card:hover {
+    transform: scale(1.05);
+    background-color: #4e3b31;
+}
+
+.coffee-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.coffee-card h2, .coffee-card p, .coffee-card .price {
+    margin: 10px 0;
+    color: var(--text-color);
+    text-align: center; /* Center the text */
+}
+
+/* Styling for View More button */
+button.view-more {
+    padding: 12px 600px;
+    background-color: var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+button.view-more:hover {
+    background-color:var(--text-color);
+    color: #121212;
+    transform: scale(1.05);
+}
+
+/* Styling for Go to Cart button */
+button.go-to-cart {
+    padding: 12px 600px;
+    background-color:var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+button.go-to-cart:hover {
+    background-color: var(--text-color);
+    color: #121212;
+    transform: scale(1.05);
+}
+
+
+button.add-to-cart {
+    padding: 10px;
+    background-color:var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.add-to-cart:hover {
+    background-color:var(--text-color);
+    color: #121212;
+}
+
+.cart {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cart h2 {
+    color:var(--main-color);
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    background-color: #2e2e2e;
+    color: var(--main-color);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.cart-total {
+    margin-top: 15px;
+    color:var(--main-color);
+}
+
+button.buy-now {
+    padding: 10px 20px;
+    background-color:var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button.buy-now:hover {
+    background-color:var(--text-color);
+    color: #121212;
+}
+
+.hidden {
+    display: none;
+}
+
+.address-form {
+    background-color: #2e2e2e;
+    color: var(--main-color);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.address-form h2 {
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.address-form label, .address-form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.address-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.address-form button {
+    padding: 10px;
+    background-color: var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.address-form button:hover {
+    background-color:var(--text-color);
+    color: #121212;
+}
+
+.orders-modal {
+    background-color: #2e2e2e;
+    color: var(--main-color);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000;
+}
+
+.orders-modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orders-modal li {
+    margin-bottom: 10px;
+}
+
+.orders-modal button {
+    padding: 10px;
+    background-color: var(--main-color);
+    border: none;
+    color: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.orders-modal button:hover {
+    background-color: var(--text-color);
+    color: #121212;
+}
+
+.view-orders {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:var(--main-color);
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-orders:hover {
+    background-color:var(--text-color);
+    color: #121212;
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gets Skills</title>
+    
+    
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="new1.css">
+   
+
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--aos animation css link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--aos animation js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--initialize aos link-->
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <!-- header -->
+    <header>
+
+        <!--navi bar when scroll color changes  js link -->
+        <script src="navicolortranstoblack.js"></script>
+
+        
+
+
+
+        <a href="#" class="logo">
+            <img src="logos/main-logo.png"  class="lo">
+        </a>
+
+        <ul class="navlist">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About us</a></li>
+            <li><a class="nav-link" href="#menu">Courses</a></li>
+            <li><a class="nav-link" href="#product">Product</a></li>
+            <li><a class="nav-link" href="#customers">Customer</a></li>
+            <li><a class="" href="contact.html">Contact</a></li>
+
+           
+        </ul>
+
+        <img src="theme/sun.png" id="icon">
+
+        <!-- scroll effect -->
+        <script src="scroll.js"></script>
+
+        <!-- icon -->
+        <div class="header-icon">
+            <a href="cart.html"><i class='bx bx-cart'></i></a>
+         
+        </div>
+
+        <div class="right-content">
+            <a href="log.html" id="signInBtn" class="nav-btn">log in</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+        <div class="right-content">
+            <a href="log.html" class="nav-btn" id="signUpBtn">Sign up</a>
+        </div>
+
+        <div class="right-content">
+            <a href="out.html" style="display: none;" class="nav-btn" id="signOutBtn">Sign Out</a>
+        </div>
+
+        <!-- js link to hide login and sign up button after login and redircting to home page and unhide signout button -->
+        <script src="hide.js"></script>
+
+      
+    </header>
+
+    <!-- hero -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h5 data-aos="fade-right" data-aos-duration="1400">Your Career is your Business</h5>
+            <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">- Get Skills </h1>
+            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Success usually comes to those who are too busy to be looking for it." – Henry David Thoreau
+            
+            "It’s not what you achieve, it’s what you overcome. That’s what defines your career." – Carlton Fisk
+            </p>
+
+            <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
+                <a href="#menu" class="btn">View Courses</a>
+                <a href="#" class="price">
+                    $16.00 | <span>Regular Price</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+          
+            <img src="logos/image.png" alt="coffee">
+             <!-- <img src="courses/WhatsApp Image 2024-10-05 at 12.39.46_12d64669.jpg"> -->
+        </div>
+    </section>
+
+    <!-- <div class="icons"  >
+          <a href="#"data-aos="fase-in"data-aos-duration="1400"   data-aos-delay="600"><i class="ri-facebook-circle-fill"></i></a>
+        <a href="#" data-aos="fase-in"data-aos-duration="1400"   data-aos-delay="700"  ><i class="ri-twitter-fill"></i></a>
+        
+        
+        <a href="#" data-aos="fase-in"data-aos-duration="1400"   data-aos-delay="800"><i class="fa fa-youtube"></i></a>
+      </div> -->
+
+    <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
+        <a href="#">
+            <i class="ri-scroll-to-bottom-line"></i>
+            Scroll Down
+        </a>
+    </div>
+
+    <!-- js link -->
+    <script src="new.js"></script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            Offset: 1,
+        });
+    </script>
+
+    <!-------- about us section stars------->
+    <div class="img-and-text">
+        <section class="about" id="about" id="about">
+            <h1 class="heading"><span>about</span>us </h1>
+
+            <div class="row">
+
+                <div data-aos="fade-right" data-aos-duration="1400" class="image">
+                   <div class="aboutus">
+
+                   </div> 
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="1400"class="content">
+                    <h3>What makes our courses special?</h3>
+                    <p>Creating a course that stands out as the best requires a combination of effective teaching strategies, high-quality
+                    content, and an engaging learning experience. At the core, the course must have clear and well-defined learning
+                    objectives. This allows learners to understand the purpose of the course, what they will gain, and how they can apply
+                    the knowledge in real-world situations. By outlining specific, measurable, and achievable goals, learners can track
+                    their progress, leading to higher satisfaction and confidence as they move through the material.
+                    
+                   
+                       </p>
+                    
+
+                    <a href="about.html" class="btn">learn more</a>
+                </div>
+
+            </div>
+
+    </div>
+
+    </section>
+
+
+
+
+
+    <br><br><br>
+   
+
+    <!-- /* menu section starts */ -->
+     <!-- cards.html to add to cart -->
+
+    <section class="menu" id="menu">
+        <h1 id="mm" class="heading"><span>our</span> Courses</h1>
+    
+        <div class="menu-container">
+            <div class="coffee-menu">
+                <!-- Coffee card 1 -->
+                <div data-aos="flip-up" data-aos-duration="1400"class="coffee-card" data-name="Espresso" data-price="3.00">
+                    <img src="courses/1.jpg" alt="Espresso">
+                    <h2>Web Development</h2>
+                    <p>Learn the basics of web development with HTML, CSS, and JavaScript.</p>
+                    <span class="price">$3.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+    
+                <!-- Coffee card 2 -->
+                <div data-aos="flip-down" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/2.jpg" alt="Cappuccino">
+                    <h2>Data Science </h2>
+                    <p>Discover data analysis, visualization, and machine learning.</p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Coffee card 2 -->
+                <div data-aos="flip-up" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/3.jpg" alt="Cappuccino">
+                    <h2>Graphics Designer</h2>
+                    <p>Enhance your design skills with Adobe Photoshop and Illustrator..</p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Coffee card 2 -->
+                <div data-aos="flip-down" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/4.jpg" alt="Cappuccino">
+                    <h2>DIgital Marketing</h2>
+                    <p>Master SEO, social media marketing, and content strategy.</p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Coffee card 2 -->
+                <div data-aos="flip-up" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/5.jpg" alt="Cappuccino">
+                    <h2>Machine Learning</h2>
+                    <p>
+                    Dive into algorithms, data modeling, and predictive analytics</p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div  data-aos="flip-down" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/6.jpg" alt="Cappuccino">
+                    <h2>Photography</h2>
+                    <p>Learn techniques for capturing stunning images and editing.
+                        </p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div data-aos="flip-up" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/7.jpg" alt="Cappuccino">
+                    <h2>Mobile App Development</h2>
+                    <p>
+                        Create apps for Android and iOS using modern frameworks.</p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div data-aos="flip-down" data-aos-duration="1400" class="coffee-card" data-name="Cappuccino" data-price="4.00">
+                    <img src="courses/8.jpg" alt="Cappuccino">
+                    <h2>Cybersecurity</h2>
+                    <p> Understand the principles of securing networks and systems.
+
+                        </p>
+                    <span class="price">$4.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+    
+                <!-- Repeat for other 8 coffee cards -->
+                <!-- Coffee card 3 to 10... -->
+            </div>
+          
+        </div>
+    </section>
+
+
+                
+                <!-- Add more coffee cards here -->
+            </div>
+
+            <br>
+            <!-- <a href="product.html" class="btnn">View More</a>
+                    <button id="go-to-cart">Go to Cart</button> -->
+            
+            
+            <!-- View More Button -->
+          <a href="courses/product.html"><button class="view-more">View More</button></a>  
+            
+            <!-- Go to Cart Button -->
+            <a href="cart.html"><button id="go-to-cart" class="go-to-cart">Go to Cart</button></a>
+            <!-- <button  id="go-to-cart" class="go-to-cart">Go to Cart</button> -->
+            
+            
+            <!-- id is imp to check cart -->
+            
+            <!-- js link to add elemnt to cart -->
+            <script src="cards.js"></script>
+            
+            
+            </section>
+
+        
+            
+        </div>
+        
+
+        <!-- product start -->
+        <section class="product" id="product">
+            <h1 id="hh" class="heading">Info and Practice<span>Platform</span> </h1>
+        
+            <div class="product-container">
+                <div data-aos="fade-right" data-aos-duration="1400" class="box">
+        
+                    <img src="explore/4.jpeg">
+                    <h3>Udemy</h3>
+                    <div class="content">
+                        <span>$25</span>
+                    <a href="https://www.udemy.com/" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <div data-aos="zoom-in" data-aos-duration="1400" class="box">
+                    <img src="explore/6.jpeg">
+                    <h3>Apna College</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="https://www.apnacollege.in/course/sigma-3" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <div data-aos="fade-left" data-aos-duration="1400" class="box">
+                    <img src="6.jpeg">
+                    <h3>leetcode</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="https://leetcode.com/accounts/login/?next=" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <div data-aos="fade-right" data-aos-duration="1400" class="box">
+                    <img src="courses/4.jpg">
+                    <h3>Hackerrank</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="#" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <div data-aos="zoom-in" data-aos-duration="1400" class="box">
+                    <img src="courses/7.jpg">
+                    <h3>Artiffial Intelligence</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="https://leetcode.com/accounts/login/?next=" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <div data-aos="fade-left" data-aos-duration="1400" class="box">
+                    <img src="explore/6.jpeg">
+                    <h3>Cybersecurity</h3>
+                    <div class="content">
+                        <span>$25</span>
+                        <a href="https://www.apnacollege.in/course/sigma-3" class="btn add-to-cart" data-name="Americano Pure" data-price="25">Explore</a>
+                    </div>
+                </div>
+        
+                <!-- <div class="box">
+                            <img src="img/p6.png">
+                            <h3>Americano pure</h3>
+                            <div class="content">
+                                <span>$25</span>
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+        
+                        <div class="box">
+                            <img src="img/p6.png">
+                            <h3>Americano pure</h3>
+                            <div class="content">
+                                <span>$25</span>
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div> -->
+        
+            </div>
+            </div>
+            <br>
+           
+            <a href="courses/product.html" class="btnn">View More</a>
+        
+        </section>
+        
+        <!-- product end -->
+        <br><br>
+        
+       
+    
+
+    <!-- /* menu ends */ -->
+    <br><br>
+    <br>
+    <!-- customer section start -->
+    <section class="customers" id="customers">
+        <div class="heading">
+            <h1 class="heading">our <span>coustomer's</span> </h1>
+        </div>
+
+        <div class="customer-container">
+            <div data-aos="fade-right" data-aos-duration="1400" class="box">
+                <div   class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque commodi omnis consequatur,
+                    impedit quaerat cum, nemo repellat similique ratione eaque iste culpa ex, accusantium ipsum mollitia
+                    aut enim beatae?</p>
+                <h2>John Doe</h2>
+                <img src="img/rev1.jpg">
+            </div>
+
+            <div data-aos="zoom-out-down" data-aos-duration="1400" class="box">
+                <div   class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque commodi omnis consequatur,
+                    impedit
+                    quaerat cum, nemo repellat similique ratione eaque iste culpa ex, accusantium ipsum mollitia aut
+                    enim beatae?
+                </p>
+                <h2>John Doe</h2>
+                <img src="img/rev2.jpg">
+            </div>
+
+            <div  data-aos="fade-left" data-aos-duration="1400" class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque commodi omnis consequatur,
+                    impedit
+                    quaerat cum, nemo repellat similique ratione eaque iste culpa ex, accusantium ipsum mollitia aut
+                    enim beatae?
+                </p>
+                <h2>John Doe</h2>
+                <img src="img/rev3.jpg">
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <!-- footer starts -->
+
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Coffee Shop</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur fugit magnam, voluptate delectus
+                obcaecati excepturi eos hic facere sunt officiis illo magni sit iste ducimus. Qui sit saepe iure
+                laudantium.
+            </p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+
+        <div class="support">
+            <h3>support</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Our Branches</a></li>
+                <li><a href="#">Product</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box" id="footer">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bx-map'></i>250 New York City, USA 10001</span>
+                <span><i class='bx bx-phone'></i>+1 444 744 8444</span>
+                <span><i class='bx bx-envelope'></i>coffee@shop.com</span>
+            </div>
+        </div>
+        <a href="#home" style="color: rgb(102, 97, 173); text-decoration: none;"><h3>Home</h3></a>
+    </section>
+
+    <br><br>
+    <!-- copyright -->
+    <div class="copyright">
+        <p>&copy; 2024 Get Skills. All rights reserved.</p>
+    </div>
+
+
+
+    <!-- email -->
+
+    <a href="mailto:madankarmuskan@gmail.com" style="text-decoration: none; color: inherit;">
+        <button class="btn-email btn csozidev" style="
+                position: fixed;
+                z-index: 10;
+                bottom: 10px;
+                right: 10px;
+                background: linear-gradient(135deg, rgb(42, 85, 165) 0%, black 100%);
+                border: none;
+                border-radius: 50px;
+                padding: 12px 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            ">
+            <div class="svg-wrapper-1" style="margin-right: 8px;">
+                <div class="svg-wrapper" style="display: flex; align-items: center; justify-content: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor"
+                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <span>E-mail</span>
+        </button>
+    </a>
+
+    <style>
+        .btn-email:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-email:active {
+            transform: scale(0.95);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <!-- scripts -->
+    <script src="./script.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- typescript-js -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Web Developer"],
+            typeSpeed: 15,
+        });
+        var typed = new Typed('#element2', {
+            strings: ["Muskan Madankar"],
+            typeSpeed: 20,
+        });
+    </script>
+    <script src="scripts.js"></script>
+
+
+    <!-- new -->
+
+
+    <!-- <script src="hide.js"></script> -->
+
+    <!-- to change the theme ie dark to light mode -->
+   <script src="light.js"></script>
+
+
+
+
+</body>
+
+</html>
